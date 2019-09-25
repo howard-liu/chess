@@ -1,0 +1,5 @@
+{
+  "code-runner.defaultLanguage": "python3",
+  "code-runner.saveAllFilesBeforeRun": true,
+  "code-runner.customCommand": "python3 -u \"/Users/Howard/Documents/Work/chess/Game.py\""
+}
