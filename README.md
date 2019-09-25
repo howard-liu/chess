@@ -21,13 +21,17 @@ So far I have created:
 
 ## Interesting Insights
 
-Pawn > AntiPawn. I thought, before I saw it perform, that AntiPawn would align with chess principles of development and allow for some aggressive starts. Then I found of that it only moves (and suicides) its knights, then opens the pawns. Being two knights down is what makes AntiPawn perform worse than Random.
+### Pawn > AntiPawn.
+I thought, before I saw it perform, that AntiPawn would align with chess principles of development and allow for some aggressive starts. Then I found of that it only moves (and suicides) its knights, then opens the pawns. Being two knights down is what makes AntiPawn perform worse than Random.
 
+### No Stalemate Reward Agent
 Reward Agent beats Random-based Agents around 95% of the time (needs actual statistical backup), with the other times being draws due to accidental stalemate (usually while being miles ahead in material) (eventually Random Agent should win one because it has a chance of making all the right moves). This is what inspired the conception of NSReward Agent. No Stalemate Reward Agent's goal is to capitalise on weak opponents and checkmate them instead of accidentally drawing. This means that it checks if the move it will make will stalemate the game. However, if you are behind, sometimes a draw is the best you can hope for, so I implemented a material balance check to see who is ahead. If NSReward Agent is ahead, it will go for the kill. 
 
+### Checking is bad!
 Rewards/NSReward Agent behaves significantly worse when it prioritises checks before random moves. Under closer inspection, this makes sense as in the endgame, constantly checking the opponent while ahead nearly always leads to a draw, whereas random moves allow pawns to be pushed, and dumb luck to prevail
 
-Once I implemented the check for one move checkmates, I enjoyed when the AI found some interesting and sometimes elegant checkmates. Some of which I have saved and maybe will share later on
+### Fun checkmates
+Once I implemented the check for one move checkmates, I enjoyed when the AI found some interesting and sometimes elegant checkmates. Some of which I have saved and maybe will share later on.
 
 ## To Do:
 ### Interesting Agent Ideas
