@@ -33,7 +33,7 @@ Rewards/NSReward Agent behaves significantly worse when it prioritises checks be
 ### Fun checkmates
 Once I implemented the check for one move checkmates, I enjoyed when the AI found some interesting and sometimes elegant checkmates. Some of which I have saved and maybe will share later on.
 
-## To Do:
+## To Do
 ### Interesting Agent Ideas
 - Defence: Protection and the ability to see what squares the enemy controls and respond to that
 - Endgame: when there is only king left for other player, march king towards other king (or something)
