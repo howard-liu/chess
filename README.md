@@ -1,5 +1,8 @@
 # Chess
 
+## How to use
+Clone the repo and run `python3 Game.py` or `python Game.py`
+
 ## Inspiration
 
 I've been enjoying playing chess and am amazed at AI's dominance in chess. This project is inspired by [this video](https://www.youtube.com/watch?v=DpXy041BIlA) by Tom7 (suckerpinch), I highly recommend it to anyone who enjoys chess, AI, tournaments, battles or even colourful graphs.
